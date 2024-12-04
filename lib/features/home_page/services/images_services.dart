@@ -7,10 +7,10 @@ import 'package:http/http.dart' as http;
 class ImageApi {
   static Future<PhotoResponseModel> getTrendingImages() async {
     final url =
-        Uri.parse("https://api.pexels.com/v1/popular/?page=11&per_page=10");
+        Uri.parse("https://api.pexels.com/v1/popular/?page=1&per_page=10");
     const headers = {
       "Authorization":
-          "dHfp02efrEbIuaSYuK0OwuFSCJ0j3NqJhckaMr9nTQs1CCFsEk5sBGxh"
+          "MJ6BQu2hYcewqFabFsMGgXHhX8QjREVEcoz7VDDYEcQYNQPxacXmfoix"
     };
 
     try {
